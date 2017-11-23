@@ -5,3 +5,8 @@ data Card =
 
 sumHand :: [Card] -> Int
 sumHand cards = undefined
+
+toPoint :: Card -> [Int]
+toPoint A = [1, 11]
+toPoint (N n) = [n]
+toPoint _ = [10]
