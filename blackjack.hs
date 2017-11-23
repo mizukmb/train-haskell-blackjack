@@ -4,4 +4,4 @@ data Card =
   A | N Int | J | Q | K deriving (Eq, Show)
 
 sumHand :: [Card] -> Int
-sumHand cards = undefind
+sumHand cards = undefined
